@@ -1,0 +1,22 @@
+.container{
+	height: 100%;
+}
+.slider{
+	width: 240px !important;
+}
+.main_header{
+	background: #FFFFFF;
+}
+.main_footer{
+text-align: center;
+}
+
+.main_breadcrumb{
+	margin-top: 10px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.main_container {
+	padding: 20px;
+	background: #fff;
+}

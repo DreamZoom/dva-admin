@@ -9,12 +9,22 @@ export default {
 			displayName: "产品列表",
 			fields: []
 		},
-		actions: []
+		actions: [],
+		show_edit_modal:false
 	},
 	reducers: {
 		'action'(state, { payload }) {
 			console.log(payload);
-			return state;
+			return {...state};
+		},
+		'showEditModal'(state, { payload }){
+			state.show_edit_modal = true;
+			console.log(state);
+			return {...state};
+		},
+		'hideEditModal'(state, { payload }){
+			state.show_edit_modal = false;
+			return {...state};
 		}
 	},
 };

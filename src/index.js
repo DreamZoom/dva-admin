@@ -40,7 +40,8 @@ const app = dva({
 				text:"删除",
 				api:"delete",
 				prompt:"是否删除记录"
-			}]
+			}],
+			show_edit_modal:false
 		}
 	}
 });
